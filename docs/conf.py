@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'GeoSuite'
-copyright = '2024, Cited, Inc.'
+project = 'Aurora'
+copyright = '2026, Cited, Inc.'
 author = 'Cited Inc'
 
 release = '2.1'
@@ -49,7 +49,7 @@ html_css_files = [
 pygments_style = "sphinx"
 
 
-html_logo = "acugis-geosuite-docs-logo.png"
+# html_logo = "acugis-geosuite-docs-logo.png"
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
