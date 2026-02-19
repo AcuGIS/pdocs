@@ -3,8 +3,8 @@ Import ESRI Data
 
 Aurora integrates with ESRI ArcGIS services through two dedicated components:
 
-- **ESRI Browser** — discover and inspect ArcGIS services
-- **Pipelines** — ingest ArcGIS layers into Aurora datasets
+- **ESRI Browser** - discover and inspect ArcGIS services
+- **Pipelines** - ingest ArcGIS layers into Aurora datasets
 
 These tools allow you to explore ESRI content, evaluate layers, and optionally convert them into Aurora-managed data for maps, dashboards, and analysis.
 
