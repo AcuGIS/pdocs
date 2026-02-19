@@ -26,6 +26,7 @@ Aurora is a geospatial platform for publishing, analyzing, and sharing spatial d
    :maxdepth: 2
    :caption: Modules
 
+   modules/workspaces
    modules/maps
    modules/dashboards
    modules/analysis
