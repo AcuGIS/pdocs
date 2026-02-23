@@ -46,16 +46,11 @@ Click More Actions > Create Map
 
    .. image:: ../_static/QuickStart-7.png
 
-Open Map Builder and add your dataset as a layer.
-
-
-   .. image:: ../_static/QuickStart-8.png
-
 Your layer is added to the map.  Add any additional layers you wish to as well.
 
-The Map can, of course, be edited at any later time as well.
+ 
 
-   .. image:: ../_static/QuickStart-9.png
+
 
 
   
@@ -65,9 +60,14 @@ Step 3 - Style layers
 
 Style the layer(s) as you wish to and add additional features such as Legend, Charts, Popup Styling, etc..
 
-   .. image:: ../_static/QuickStart-9.png
+  .. image:: ../_static/QuickStart-8.png
 
 Click Save Map
+
+   .. image:: ../_static/QuickStart-9.png
+
+
+Your Map has been created.
 
  .. image:: ../_static/QuickStart-10.png
 
