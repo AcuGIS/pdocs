@@ -39,19 +39,36 @@ The Browser helps evaluate ESRI sources before creating a Pipeline.
 Creating a Pipeline from ESRI
 -----------------------------
 
-Once a layer is identified in the ESRI Browser, it can be used as a Pipeline source.
+To import data from ESRI, either as a one-off migration or Scheduled import
 
-Typical workflow:
+1. Click on New > New Dataset
 
-1. Open ESRI Browser
-2. Enter ArcGIS service URL
-3. Browse available layers
-4. Select layer
-5. Create Pipeline from selection
-6. Configure processing and target dataset
-7. Run or schedule Pipeline
+   .. image:: ../_static/QuickStart-1.png
 
-The Pipeline retrieves features from the ArcGIS service and stores them as an Aurora dataset.
+2. Enter ArcGIS service URL and click Load Layers
+
+   .. image:: ../_static/ArcGIS-1.png
+
+
+3. Select the Layer to import
+
+   .. image:: ../_static/ArcGIS-2.png
+
+4. If username and password are required, enter them here.  If a one-time import, use default, if Scheduled, select Schedule.
+
+Click the Save button
+
+   .. image:: ../_static/ArcGIS-3.png
+
+5. A dataset is now created from the ESRI layer
+
+   .. image:: ../_static/ArcGIS-4.png
+
+6. Configure dataset, map, etc..  You can now use the dataset as well as use dataset in Maps, Dashboards, and other functions
+
+   .. image:: ../_static/ArcGIS-5.png
+
+The Pipeline retrieves features from the ArcGIS service and stores them in PostGIS as an Aurora dataset.
 
 When to Use ESRI Browser Only
 -----------------------------
